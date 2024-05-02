@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Ethan and a group of friends went tos ee the Five Nights at Freddy's movie in theaters. How soon after release did they see it?",
+    "answers": [
+      "The first day after",
+      "Within the month",
+      "Within a year",
+      "Within a week"
+    ],
+    "correctAnswer": "The first day after",
+    "incorrectMessage": "Haha, not a true fan. The ticklefight was viewed on the second day.",
+    "correctMessage": "That's right, second day, baby!"
+  },
+  {
+    "question": "Connor's last name is?",
+    "answers": [
+      "Cappi",
+      "Cappitella",
+      "Capiteli",
+      "Cappitelli"
+    ],
+    "correctAnswer": "Cappi",
+    "incorrectMessage": "Nah, try again later...",
+    "correctMessage": "The Italian Stallion's name is indeed spelled that way!"
+  }
+]
