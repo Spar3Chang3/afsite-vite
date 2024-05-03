@@ -4,10 +4,22 @@ const http = require('http');
 const fs = require("fs");
 
 const filepath = './files/'
-const hostname = '192.168.0.245';
+const hostname = '192.168.0.111';
 
 app.get('/trivia', (req, res) => {
     fs.readFile(filepath+'trivia.json', (err, data) => {
+        if (err) {
+            res.status(500).send("Server encountered a file reading error");
+        } else {
+            res.set('Content-Type', 'application/json');
+            res.set('Access-Control-Allow-Origin', '*');
+            res.send(data);
+        }
+    });
+});
+
+app.get('/articles', (req, res) => {
+    fs.readFile(filepath+'articles.json', (err, data) => {
         if (err) {
             res.status(500).send("Server encountered a file reading error");
         } else {

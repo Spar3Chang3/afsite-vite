@@ -57,23 +57,23 @@ export default function App() {
 
                     <div className={'activity-buttons'}>
                         <button className={'button'}
-                                onClick={() => redirect("./articles/ArticleList.html")}
+                                onClick={() => redirect("/articles/index.html")}
                         >Articles?
                         </button>
 
                         <button className={'button'}
-                                onClick={() => redirect("../trivia/trivia.html")}
+                                onClick={() => redirect("/trivia/index.html")}
                         >Trivia?
                         </button>
 
                         <button className={'button'}
-                                onClick={() => redirect("../calendar/events.html")}
+                                onClick={() => redirect("/calendar/index.html")}
                         >Upcoming Events?
                         </button>
                     </div>
 
                     <button className={'button'}
-                            onClick={() => redirect("../articles/sotm.html")}
+                            onClick={() => redirect("/sotm/index.html")}
                     >Song of the Month
                     </button>
 

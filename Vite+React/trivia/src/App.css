@@ -6,6 +6,7 @@
     min-height: 100vh;
     max-height: fit-content;
     background: linear-gradient(to bottom, #4CAF50, #87CEFA, #D3D3D3);
+    align-items: center;
 }
 
 .banner {
@@ -22,6 +23,24 @@
     height: 60%;
     width: 80%;
     justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+    font-size: large;
+    color: black;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form-selection {
+    display: flex;
+    width: 100%;
 }
 
 .button {
