@@ -91,7 +91,7 @@ export default function App() {
                 </div>
 
                 <div className={'spotify-plugin'}>
-                    <iframe style={{borderRadius: '12px', width: '50%'}}
+                    <iframe style={{borderRadius: '12px', width: '80%'}}
                             src="https://open.spotify.com/embed/artist/3JXrxOSYCRqrwIBF5KFNqO?utm_source=generator"
                             width="50%" height="700" frameBorder="0" allowFullScreen=""
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
